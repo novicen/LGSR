@@ -42,7 +42,10 @@ export nnUNet_results=/path/to/nnUNet_results
 
 The roots must contain the standard nnU-Net dataset, preprocessed, and model
 directory structures. No data is downloaded or copied by this package.
-Add the project-selected root license before making the repository public.
+The LGSR source code, data-preparation tools, scripts, configurations, and
+documentation are licensed under Apache-2.0; see the root `LICENSE` file.
+The vendored nnU-Net runtime retains its Apache-2.0 license and attribution;
+see `THIRD_PARTY_NOTICES.md`.
 
 ## Training
 
