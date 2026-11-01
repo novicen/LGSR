@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.pth
+*.pt
+*.ckpt
+nnUNet_raw/
+nnUNet_preprocessed/
+nnUNet_results/
+predictions/
+logs/
+results/

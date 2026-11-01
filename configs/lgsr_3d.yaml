@@ -1,0 +1,16 @@
+method: LGSR
+trainer: nnUNetTrainer_lgsr
+configuration: 3d_fullres
+components_per_class: [1, 3, 3]
+feature_dim: 32
+covariance: identity
+within_class_component_weights: uniform
+safe_ball_mode: strict
+safe_ball_rates: [1.0, 1.0, 1.0]
+require_safe_prediction_match: false
+lambda_nll: 0.01
+lambda_dice: 1.0
+dice_classes: [liver, tumor]
+epochs: 200
+iterations_per_epoch: 250
+validation_iterations_per_epoch: 50
